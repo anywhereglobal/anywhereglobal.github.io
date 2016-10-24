@@ -151,7 +151,7 @@ input,
 select,
 textarea {
     color: #4F4F4F;
-	font-family: "Teko", sans-serif;
+	font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
 	letter-spacing: 2px;
     font-size: 13px;
     line-height: 1.5;
@@ -192,7 +192,7 @@ address {
 
 pre {
     background: #eee;
-    font-family: "Teko", sans-serif;
+    font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
 	letter-spacing: 2px;
     font-size: 15px;
     font-size: 1.5rem;
@@ -305,9 +305,9 @@ th {
 
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     font-weight: 300;
-    line-height: 1.0em;
+    line-height: 1.5em;
     word-wrap: break-word;
-    color: #5E5E5E;
+    color: black;
     margin-top: 0;
 }
 
@@ -504,13 +504,13 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	color: #626262;
+	color: black;
 	padding: 19px 22px 20px;
 	font-size: 13px;
 	text-transform: uppercase;
 	white-space: nowrap;
 	text-align: center;
-    
+    font-weight: bold;
     -webkit-transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
      -moz-transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
       -ms-transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
@@ -828,12 +828,14 @@ a:active {
 	max-width: 1140px;
 	margin: 0 auto;
 	padding: 0 20px;
+	
 }
 
 .site-header {
 	background-color: #FFF;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.015);
 	margin: 0 0 25px;
+	
 }
 .home .site-header {
     margin: 0;
@@ -994,7 +996,7 @@ a:active {
     position: relative;
 }
 .home-slider-block-inner {
-	font-family: "Teko", sans-serif;
+	font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
 	position: absolute;
 	font-size: 20px;
 	color: gray;
@@ -1007,7 +1009,7 @@ a:active {
 }
 .home-slider-block h3 {
     color: black;
-	font-family: "Teko", sans-serif;
+	font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
     font-size: 40px;
     letter-spacing: 2px;
     margin: 0 0 8px;
@@ -1022,7 +1024,7 @@ a:active {
 
 .home-slider-block h4 {
     color: black;
-	font-family: "Teko", sans-serif;
+	font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
     font-size: 40px;
     letter-spacing: 2px;
     margin: 0 0 8px;
@@ -1896,13 +1898,13 @@ Fallback CSS for Customizer Library Styles
 body,
 .widget-area .widget a,
 .site-footer-widgets .widget a {
-    color: #4F4F4F;
+    color: black;
     font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: #5E5E5E;
-    font-family: "Teko", sans-serif;
+    color: black;
+    font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
 	letter-spacing: 2px;
 }
 
@@ -1926,8 +1928,9 @@ a,
 .error-404.not-found .page-header .page-title span,
 .search-button .fa-search  {
     color: black;
-	font-family: "Teko", sans-serif;
+	font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
 	letter-spacing: 2px;
+	
 	
 }
 
